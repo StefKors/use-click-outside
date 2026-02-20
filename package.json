@@ -1,6 +1,6 @@
 {
   "name": "@kors/use-click-outside",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React hook to detect clicks outside a referenced element",
   "type": "module",
   "main": "./dist/index.js",
