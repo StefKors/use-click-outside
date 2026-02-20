@@ -1,0 +1,61 @@
+{
+  "name": "@kors/use-click-outside",
+  "version": "1.0.0",
+  "description": "React hook to detect clicks outside a referenced element",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "test": "bun vitest run",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "click-outside",
+    "outside-click",
+    "dismiss",
+    "dropdown",
+    "modal",
+    "popup"
+  ],
+  "author": {
+    "name": "Stef Kors",
+    "url": "https://github.com/StefKors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StefKors/use-click-outside.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "license": "MIT",
+  "packageManager": "bun",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.0",
+    "@types/react": "^19.0.0",
+    "jsdom": "^26.0.0",
+    "react": "^19.0.0",
+    "tsdown": "latest",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}
